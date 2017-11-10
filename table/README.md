@@ -57,4 +57,4 @@ table.row(new String[]{String.valueOf(1)});
 table.print();
 ```
 
-Simply call this method when the table is done and is ready to be printed to the console.
+Simply call this method when the table is done and is ready to be printed.
