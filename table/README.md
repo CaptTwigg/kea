@@ -17,7 +17,7 @@ The constructor takes 2 parameters:
 Table table = new Table(new String[]{"ID:", "Firstname:", "Lastname:"}, new int(){20, 20, 20});
 ```
 
-### Set padding on cells
+### Set padding on cells:
 ```
 table.setPadding(1);
 table.setPadding(1, 2);
@@ -29,7 +29,7 @@ This method sets the padding of all cells (between the data of the cell and the 
  - Second method shown takes 2 parameters, first parameter applies to TOP and BOTTOM, second parameter applies to LEFT and RIGHT.
  - Third method shown takes 4 parameters, first parameter applies to TOP, second applies to RIGHT, third applies to BOTTOM and fourth applies to LEFT.
  
- ### Set border on cells
+ ### Set border on cells:
  ```
 table.setBorder(1, '+');
 ```
@@ -38,7 +38,7 @@ This method creates a border around the table and between each cell:
 - First parameter contains the width of the border.
 - Second parameter contains the char which the border contains of.
 
-### Insert a row into the table (besides the already made headers)
+### Insert a row into the table (besides the already made headers):
  ```
 table.row(new String[]{});
 ```
@@ -52,7 +52,7 @@ Example:
 table.row(new String[]{String.valueOf(1)});
 ```
 
-### Print the table to the console
+### Print the table to the console:
  ```
 table.print();
 ```
