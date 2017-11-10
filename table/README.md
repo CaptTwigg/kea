@@ -43,7 +43,7 @@ This method creates a border around the table and between each cell:
 table.row(new String[]{});
 ```
 
-This method create a row in the table:
+This method creates a row in the table:
  - The method takes 1 parameter which needs to be an array of string, REMEMBER to convert any value, which is not a string to a string, by simply call String.valueOf(<variable>);
  - Also, REMEMBER, to have as many elements as the headers of the tables have.
  
