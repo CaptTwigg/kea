@@ -25,7 +25,7 @@ table.setPadding(1, 2, 1, 4);
 ```
 
 This method sets the padding of all cells (between the data of the cell and the border):
- - First method shown takes 1 parameter, this parameter applies to all TOP, BOTTOM, RIGHT, LEFT.
+ - First method shown takes 1 parameter, this parameter applies to all paddings of the cell (TOP, BOTTOM, RIGHT, LEFT).
  - Second method shown takes 2 parameters, first parameter applies to TOP and BOTTOM, second parameter applies to LEFT and RIGHT.
  - Third method shown takes 4 parameters, first parameter applies to TOP, second applies to RIGHT, third applies to BOTTOM and fourth applies to LEFT.
  
