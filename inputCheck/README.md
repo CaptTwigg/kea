@@ -2,6 +2,8 @@
 By Mike H. Jahn
 
 ## Documentation:
+Methods to repeat user input until right input type given.
+Methods take a message for what to enter and an error message for feedback.
 
 ### Methods 
 - Int();
