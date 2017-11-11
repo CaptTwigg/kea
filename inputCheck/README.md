@@ -3,8 +3,9 @@ By Mike H. Jahn
 
 ## Documentation:
 Methods to repeat user input until right input type given.
-Methods take a message for what to enter and an error message for feedback.
 
+Methods take a message for what to enter and an error message for feedback.
+ 
 ### Methods 
 - Int();
 - Boolean();
@@ -13,7 +14,7 @@ Both work the same way, just takes diffrent type as input.
 
 ### Use
 
-```
+``` 
 intputCheck.Int(Input message, Error message);
 intputCheck.Boolean(Input message, Error message);
 ```
