@@ -2,8 +2,7 @@
 By Mike H. Jahn
 
 ## Documentation:
-Methods to repeat user input until right input type given.
-
+Methods to repeat user input until right input type given.<p>
 Methods take a message for what to enter and an error message for feedback.
  
 ### Methods 
