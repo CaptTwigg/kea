@@ -31,7 +31,7 @@ public class Input {
     return result;
   }
 
-  private static String stringToBoolean(String message, String first, String second, String error) {
+  public static String stringToBoolean(String message, String first, String second, String error) {
     System.out.print(message);
     String inputString = new Scanner(System.in).next();
 
