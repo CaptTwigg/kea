@@ -5,20 +5,13 @@ By Mike H. Jahn
 Methods to load and save objects to a file as byte code.
  
 ### Methods 
-- save(); 
-  - returns void
-- load(); 
-  - returns ArrayList
+- void save()
+- ArrayList load()
+
 
 
 ### Use
 
-``` 
-import static kea.file.Object.*;
-
-load(file);
-save(file, object);
-```
 Example on save:
 ```java
 import static kea.file.Object.*;

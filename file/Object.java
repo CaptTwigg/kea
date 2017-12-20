@@ -10,7 +10,7 @@ public abstract class Object {
     try {
       FileInputStream fileIn = new FileInputStream(file);
       ObjectInputStream in = new ObjectInputStream(fileIn);
-      array = (ArrayList<String>) in.readObject();
+      array = (ArrayList) in.readObject();
       in.close();
       fileIn.close();
       System.out.println("Data loaded.");
